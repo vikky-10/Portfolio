@@ -43,8 +43,12 @@ function App() {
       {/* <Nav /> */}
 
       <Switch>
-        <Route exact path="/" component={Banner} />
-        <Route path="/About" component={About} />
+        <Route exact path="/">
+          <Banner />
+
+          <About />
+        </Route>
+        {/* <Route path="/About" component={About} /> */}
         <Route
           path="/Services"
           // component={() => {

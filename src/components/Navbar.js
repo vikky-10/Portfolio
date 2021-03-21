@@ -17,7 +17,7 @@ const Navbar = () => {
           </NavLink>
         </li>
 
-        <li>
+        {/* <li>
           <NavLink
             className="links"
             exact
@@ -26,7 +26,7 @@ const Navbar = () => {
           >
             About
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             className="links"
