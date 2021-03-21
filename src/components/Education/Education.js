@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Educations from "./Educations";
-import Certifications from "./Certifications";
+
 import CompetitiveSites from "./CompetitiveSites";
 // import EducationImg from "./EducationImg";
 import Card from "../Cards";
@@ -30,11 +30,12 @@ class Education extends Component {
             </div>
           </Fade>
           <Educations />
-          <Certifications />
+
+          <h1 className="heading-text">Certifcations</h1>
+          <br />
+          <br />
           <Card />
         </div>
-        {/* <Footer theme={this.props.theme} /> */}
-        {/* <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }
