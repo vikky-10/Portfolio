@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* .cards {
+  margin: 30px;
+  min-width: 140vh;
+  padding: 40px 90px;
+  background: #ebf5fc;
+  border-radius: 20px;
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    6px 6px 20px rgba(0, 0, 0, 0.1);
+} */
+
+/* .cards:hover {
+  box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+
+  transform: scale3d(1.006, 1.006, 1);
+} */
+/* .card .introduction {
+  margin-left: 15%;
+} */
+
+.presentation {
+  background-color: #003049;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 100%;
+  margin-top: 50px;
+}
+.introduction {
+  /* border: 1px solid red; */
+
+  flex: 0.5;
+}
+.intro__text {
+  width: 100%;
+}
+.cta {
+  width: 100%;
+}
+/* .cover {
+  border: 1px solid red;
+} */
+.intro__text {
+  margin: 0 auto;
+}
+.intro__text h1 {
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.intro__text h3 {
+  font-size: 1.2em;
+  color: #585772;
+  margin-bottom: 35px;
+}
+.cta {
+  display: inline-block;
+  width: auto;
+  background-color: red;
+  border-radius: 2px;
+  padding: 10px;
+  text-decoration: none;
+  color: #003049;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+
+  /* box-shadow: inset 0 0 15px rgba(66, 66, 66, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(58, 58, 58, 0.15),
+    -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);*/
+  transition: box-shadow 399ms ease-in-out;
+}
+.cta :hover {
+  color: #676767;
+}
+
+.cover img {
+  animation: mover 1.5s infinite alternate;
+  height: 300px;
+  max-width: 400px;
+}
+@media screen and (max-width: 890px) {
+  .intro__text h1 {
+    font-size: 1.8em;
+  }
+  .intro__text h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .intro__text h1 {
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  .intro__text h3 {
+    font-size: 1em;
+    color: #585772;
+  }
+  .cta {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 764px) {
+  .presentation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction {
+    padding-top: 30px;
+  }
+  .intro__text h1 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .intro__text h3 {
+    font-size: 1.2em;
+    color: #585772;
+  }
+  .cover img {
+    height: 300px;
+    width: 100%;
+  }
+  .cta {
+    font-size: 1em;
+  }
+} /*.big__circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70vh;
+
+  opacity: 0.4;
+}
+.medium__circle {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+
+  height: 50%;
+  opacity: 0.4;
+}
+.small__circle {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+
+  height: 50%;
+  opacity: 0.6;
+}
+.img__select {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 25%;
+  height: 20px;
+  bottom: 15%;
+}
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}*/
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+/*@media screen and (max-width: 764px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .introduction {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  .intro__text h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .intro__text p {
+    font-size: 18px;
+  }
+  .cta {
+    padding: 20px 0 30px 0;
+  }
+  .img__select {
+    bottom: 5%;
+    right: 50%;
+    width: 30%;
+    transform: translate(50%, 5%);
+  }
+  .cover {
+    margin-right: 100px;
+  }
+  .cover img {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 470px) {
+  .cover img {
+    height: 30vh;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .introduction {
+    text-align: center;
+  }
+  .intro__text h1 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .intro__text p {
+    font-size: 12px;
+  }
+  .cover {
+    margin-right: 90px;
+  }
+  .cover img {
+    height: 20vh;
+    margin-left: 70px;
+    align-items: center;
+  }
+  .cta {
+    padding: 10px 0 20px 0;
+  }
+} */

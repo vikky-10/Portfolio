@@ -1,0 +1,70 @@
+.social-media-div {
+  font-size: 2em;
+  width: 100%;
+}
+
+.icon-button {
+  margin-bottom: 10px;
+}
+
+.headerIcon {
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 3rem;
+
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3rem;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+}
+
+.F {
+  background-color: #3b5998;
+}
+
+.L {
+  background-color: #0e76a8;
+  padding: 3px;
+}
+
+.G {
+  background-color: #333;
+  padding: 1px;
+}
+
+.T {
+  background-color: #1da1f2;
+  padding: 3px;
+}
+
+.I {
+  background-color: #c13584;
+  padding: 3px;
+}
+
+/* Hover Transition */
+.T:hover,
+.G:hover,
+.L:hover,
+.F:hover,
+.I:hover,
+.medium i:hover {
+  background-color: black;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+  }
+}

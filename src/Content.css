@@ -1,0 +1,175 @@
+.title h2 {
+  font-size: 30px;
+  margin: 50px;
+  width: 100%;
+  font-weight: 700;
+  max-width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+/* .main {
+  border: 3px solid #fff;
+} */
+.main {
+  background-color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+}
+.card_set {
+  background-color: #003049;
+}
+.card_set .main__card {
+  flex: 0.5;
+}
+
+.about__info {
+  background-color: red;
+  padding: 20px;
+  flex: 0.6;
+
+  margin-right: 20px;
+
+  margin-top: 10px;
+  align-items: center;
+}
+.about__info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #003049;
+  text-align: justify;
+}
+/* .main__card {
+  background-color: blue;
+  width: 0%;
+  flex: 0.8;
+}
+.about__info {
+  background-color: red;
+  width: 40%;
+  flex: 1;
+  padding-left: 20px;
+}
+.main {
+  display: flex;
+} */
+
+.Hire {
+  text-decoration: none;
+  padding: 10px 40px;
+  background: transparent;
+  border-radius: 18px;
+  text-decoration: none;
+  color: #003049;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: inset 0 0 15px rgba(66, 66, 66, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(58, 58, 58, 0.15),
+    -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 399ms ease-in-out;
+}
+.Hire:hover {
+  box-shadow: inset 7px 7px 15px rgba(66, 66, 66, 0.15),
+    inset -7px -7px 20px white, 0px 0px 4px rgba(255, 255, 255, 0.2);
+  color: #676767;
+}
+/* .about__info {
+  max-width: 80%;
+  height: 80vh;
+  padding: 30px;
+}
+ */
+
+/* skill exp edu */
+/* .about__tab {
+  padding: 30px 15px 50px;
+  max-width: 100%;
+  text-align: center;
+} */
+.about__tab .tab__item {
+  display: inline-block;
+  margin: 0 5px 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  color: #003049;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: inset 0 0 15px rgba(66, 66, 66, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(58, 58, 58, 0.15),
+    -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 399ms ease-in-out;
+}
+.about__tab .tab__item:hover {
+  box-shadow: inset 7px 7px 15px rgba(66, 66, 66, 0.15), x white,
+    0px 0px 4px rgba(255, 255, 255, 0.2);
+  color: #676767;
+}
+.exp {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__info {
+    /* margin-left: 100px;
+    height: 50vh; */
+    max-width: 80%;
+    margin-right: 4px;
+  }
+  .card_set .main__card {
+    max-width: 80%;
+    margin-right: 20px;
+  }
+  .card_set {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 478px) {
+  .about__info {
+    margin-bottom: 80px;
+  }
+  .title h2 {
+    padding-right: 80px;
+  }
+  .card {
+    margin-right: 50px;
+  }
+  .about__info {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 318px) {
+  .about__info {
+    max-width: 50%;
+    height: 60vh;
+    margin-left: 140px;
+  }
+  .about__info p {
+    font-size: 12px;
+    line-height: 26px;
+    color: #003049;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 290px) {
+  .about__tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: -30%;
+  }
+}

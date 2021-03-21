@@ -1,0 +1,37 @@
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+.ig {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-top: 5px;
+}
+.ig1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #edf9fe !important;
+}
+.head {
+  color: #000;
+}
+.competitive-sites-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: "Google Sans Regular";
+}
+
+.competitive-sites-inline > i {
+  color: #868e96;
+}
+
+.competitive-sites-inline > i:hover {
+  color: #645beb;
+}

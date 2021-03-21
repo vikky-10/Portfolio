@@ -1,0 +1,75 @@
+.error {
+  margin: 0;
+  padding: 0;
+  background-color: #0a1821;
+  height: 100vh;
+  width: 100vw;
+  font-family: Roboto, Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.error_h2 {
+  font-size: 20px;
+  background-color: #5581d4;
+  display: inline-block;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 10px;
+}
+.not-found {
+  width: 560px;
+  height: 225px;
+  margin-right: -10px;
+}
+.starry-sky {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.notfound-copy {
+  color: #fff;
+  position: fixed;
+  top: 55px;
+  right: 10%;
+  text-align: right;
+  /* padding-top: 60px; */
+}
+.error_h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+NavLink {
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 1.5px solid #5581d4;
+  text-decoration: none;
+}
+NavLink :hover {
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+/* change to alternating star opacities */
+.all-stars {
+  animation: blinkblink 7s linear infinite;
+}
+
+@keyframes blinkblink {
+  50% {
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 647px) {
+  .moon {
+    padding-top: -500px;
+  }
+}
