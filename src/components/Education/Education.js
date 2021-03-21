@@ -25,7 +25,7 @@ class Education extends Component {
                 <h3 className="heading-sub-text">
                   Basic Qualification and Certifcations
                 </h3>
-                {/* <CompetitiveSites /> */}
+                <CompetitiveSites />
               </div>
             </div>
           </Fade>

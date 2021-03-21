@@ -3,8 +3,9 @@ import "./Card.css";
 import img from "./img/developerActivity.svg";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import PeopleAltIcon from "@material-ui/icons/PeopleAlt";
+import { certifications } from "./components/Portfolio";
 
-function Card() {
+function Card({ cert }) {
   return (
     <div class="wrapper">
       {/* <div class="img-area">
@@ -30,8 +31,11 @@ function Card() {
       <div class="name">Vikky Singh</div>
       <p>discription</p>
       <br />
+
       <div class="buttons">
-        <button>Download certificate</button>
+        <a href={cert.certificate_link} target="_blank">
+          <button>Download certificate</button>
+        </a>
       </div>
     </div>
   );
