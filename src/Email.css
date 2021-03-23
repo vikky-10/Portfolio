@@ -5,7 +5,12 @@
 .dark-mode a {
   color: white;
 }
-
+.imgg {
+  bottom: 10px;
+}
+.upimg {
+  height: 300px;
+}
 .contact-div-main > * {
   flex: 1;
 }

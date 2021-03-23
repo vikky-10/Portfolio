@@ -2,6 +2,7 @@ import React from "react";
 import "./Email.css";
 import SocialMedia from "./components/SocialMedia";
 import { contactInfo } from "./components/Portfolio";
+import upimg from "./upimg.svg";
 import { Fade } from "react-reveal";
 
 export default function Contact() {
@@ -27,6 +28,9 @@ export default function Contact() {
               <br />
               <br />
               {/* <SocialMedia /> */}
+              <div className="imgg">
+                <img className="upimg" src={upimg} alt="" />
+              </div>
             </div>
           </div>
         </div>

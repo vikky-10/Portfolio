@@ -36,93 +36,14 @@ function Contact() {
     setMessage("");
   };
   return (
-    // <div className="container">
-    //   <form className="form" onSubmit={handleSubmit}>
-    //     <h2>Contact</h2>
-    //     <label>Name</label>
-    //     <input
-    //       placeholder="name"
-    //       value={name}
-    //       onChange={(e) => setName(e.target.value)}
-    //       required
-    //     />
-    //     <label>Email</label>
-    //     <input
-    //       placeholder="email"
-    //       value={email}
-    //       onChange={(e) => setEmail(e.target.value)}
-    //       required
-    //     />
-    //     <label className="text">Message</label>
-    //     <textarea
-    //       placeholder="Message"
-    //       value={message}
-    //       onChange={(e) => setMessage(e.target.value)}
-    //       required
-    //     ></textarea>
-    //     <button
-    //       type="submit"
-    //       style={{ background: loader ? "#ccc" : "#657ed4" }}
-    //     >
-    //       submit
-    //     </button>
-    //   </form>
-    //   <img
-    //     className="firebase__img"
-    //     src="http://www.gstatic.com/mobilesdk/190403_mobilesdk/project_create_illo_end@2x.png"
-    //     alt=""
-    //   />
-    // </div>
-    // ------------new-------------
     <div className="section contact" id="contact">
       {/* <div className="titles">
         <h1 className="tt">Contact me</h1>
       </div> */}
 
       <div className="contact-center container">
-        {/* <div
-          className="left"
-          data-aos="fade-down-right"
-          data-aos-duration="2000"
-        > */}
         <Email className="email" />
-        {/* <h2>Get in Touch</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            praesentium quibusdam ratione, cum ducimus minus iure saepe ipsum
-            repudiandae. Cum adipisci cumque dicta suscipit fuga aliquid
-            blanditiis quo quia vitae.
-          </p>
-          <div>
-            <span className="icon">
-              <i className="fas fa-user"></i>
-            </span>
-            <span className="content">
-              <h3>Name</h3>
-              <span>Alexandar Smith</span>
-            </span>
-          </div>
 
-          <div>
-            <span className="icon">
-              <i className="fas fa-map-marker-alt"></i>
-            </span>
-            <span className="content">
-              <h3>Address</h3>
-              <span>United States</span>
-            </span>
-          </div>
-
-          <div>
-            <span className="icon">
-              <i className="fas fa-envelope"></i>
-            </span>
-            <span className="content">
-              <h3>Email</h3>
-              <span>youtube@gmail.com</span>
-            </span>
-          </div> */}
-        {/* </div> */}
         <div className="right" data-aos="fade-up-left" data-aos-duration="2000">
           <form className="form" onSubmit={handleSubmit}>
             <h2>Message me</h2>
