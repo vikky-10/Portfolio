@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
-            <p className="dark-mode contact-subtitle">{contactInfo.subtitle}</p>
+            <p className="contact-subtitle">{contactInfo.subtitle}</p>
             <div className="contact-text-div">
               <a className="contact-detail" href={"tel:" + contactInfo.number}>
                 {contactInfo.number}
@@ -25,12 +25,12 @@ export default function Contact() {
               >
                 {contactInfo.email_address}
               </a>
-              <br />
-              <br />
-              {/* <SocialMedia /> */}
-              <div className="imgg">
+              {/* <br />
+              <br /> */}
+
+              {/* <div className="imgg">
                 <img className="upimg" src={upimg} alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

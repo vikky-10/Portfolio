@@ -25,20 +25,23 @@
   margin-top: 20px;
   font-size: 40px;
   font-weight: 400;
-  color: #868e96;
+  color: #a9a9a9;
   text-decoration: none;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
   color: black;
-  text-shadow: 2px 1px 2px #b5b5b5;
+  text-shadow: 1px 1px 2px #ccc;
   transition: all 0.3s;
 }
 
 .contact-subtitle {
   text-transform: uppercase;
   color: white;
+}
+.contact-header .contact-subtitle {
+  font-size: 1.6rem;
 }
 
 .contact-text-div {
@@ -88,4 +91,7 @@
   .contact-image-div {
     display: none;
   }
+}
+.main {
+  margin-top: 120px;
 }

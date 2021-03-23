@@ -193,24 +193,6 @@ h4 {
   gap: 3rem;
 }
 
-/* .left h2 {
-  font-size: 2rem;
-}
-
-.left p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.left div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.left div .content {
-  text-align: left;
-} */
 .form {
   margin-right: 10px;
   color: #ccc;
@@ -254,24 +236,11 @@ h4 {
     grid-template-columns: 1fr;
   }
 
-  /* .left div .content h3 {
-    font-size: 1.8rem;
-  } */
-
   .form {
     /* margin-left: 100px; */
     width: auto;
     /* margin-right: -10px; */
   }
-
-  /* .contact-center .left {
-    text-align: left;
-    margin-left: 25px;
-  } */
-
-  /* .left div .content span {
-    font-size: 1.5rem;
-  } */
 }
 @media only screen and (max-width: 550px) {
   .contact-center {
@@ -295,4 +264,16 @@ h4 {
   .form {
     width: auto;
   }
+}
+
+.contact {
+  background: url("https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg");
+  background-size: cover;
+  width: 100%;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+  border: 1px solid rgba(81, 203, 238, 1);
 }

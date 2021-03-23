@@ -37,10 +37,6 @@ function Contact() {
   };
   return (
     <div className="section contact" id="contact">
-      {/* <div className="titles">
-        <h1 className="tt">Contact me</h1>
-      </div> */}
-
       <div className="contact-center container">
         <Email className="email" />
 

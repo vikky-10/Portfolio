@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaPinterest,
-  FaInstagram,
-  FaPlay,
-} from "react-icons/fa";
+
 import "./Cont.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -18,10 +12,6 @@ const Contact = () => {
         <div className="contactSection">
           <div className="row justifyConter">
             <div className="col-6">
-              {/* <div className="contactSection-logo">
-                <img src="/images/logo.png" alt="" />
-              </div> */}
-
               <ul className="contactCircles">
                 <li>
                   <GitHubIcon className="contactIcon" />

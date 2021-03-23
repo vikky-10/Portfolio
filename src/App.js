@@ -64,6 +64,7 @@ function App() {
         <Route path="/Cards" component={Card} />
         <Route path="/Contact">
           <Navbar />
+
           <Contacts />
 
           <Contact />
