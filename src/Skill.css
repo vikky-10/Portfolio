@@ -18,7 +18,7 @@
 
   border-style: solid;
   border-width: 1px;
-  border-radius: 50%;
+  border-radius: 20px;
 
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -49,9 +49,9 @@
 
 /* Provide 10 different sizes */
 .skills-diagram .skill-2 {
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
 
   background-color: rgba(201, 155, 129, 0.3);
   border-color: rgba(201, 155, 129, 1);
@@ -60,15 +60,15 @@
 .skills-diagram .skill-3 {
   vertical-align: middle;
 
-  width: 3em;
-  height: 3em;
-  line-height: 3em;
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
   background-color: rgba(138, 138, 140, 0.3);
   border-color: rgba(138, 138, 140, 1);
   color: rgba(138, 138, 140, 1);
 }
 .skills-diagram .skill-4 {
-  width: 4em;
+  width: 5em;
   height: 4em;
   line-height: 4em;
 
@@ -125,6 +125,16 @@
   border-color: rgba(177, 18, 2, 1);
   color: rgba(177, 18, 2, 1);
 }
+.skills-diagram .skill-11 {
+  width: 11em;
+  height: 11em;
+  line-height: 11em;
+  background-color: rgba(81, 112, 144, 0.3);
+  border-color: rgba(81, 112, 144, 1);
+  color: rgba(81, 112, 144, 1);
+  margin-top: -40px;
+  margin-left: 60px;
+}
 .skills-diagram .skill-10 {
   width: 14em;
   height: 14em;
@@ -169,8 +179,8 @@
 
 .circles li:nth-child(2) {
   left: 10%;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   animation-delay: 2s;
   animation-duration: 12s;
   background-color: #4b0082;
@@ -237,8 +247,8 @@
 
 .circles li:nth-child(10) {
   left: 85%;
-  width: 150px;
-  height: 150px;
+  width: 30px;
+  height: 30px;
   animation-delay: 0s;
   animation-duration: 11s;
   background-color: #ff7f00;

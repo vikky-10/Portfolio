@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 import Navbar from "./components/Navbar";
 function Skill() {
   return (
-    <>
+    <div className="glass">
       <Navbar />
       <Fade bottom duration={1000} distance="20px">
         <div className="common cds">
@@ -30,28 +30,30 @@ function Skill() {
         </div>
         <div className="skill">
           <dl class="skills-diagram">
-            <dt class="skill-5">UNIX</dt>
+            <dt class="skill-5">Git</dt>
             <dd>5</dd>
-            <dt class="skill-10">c++</dt>
+            <dt class="skill-10">JavaScript</dt>
             <dd>10</dd>
-            <dt class="skill-3">Java</dt>
+            <dt class="skill-3">Python</dt>
             <dd>3</dd>
-            <dt class="skill-8">Node</dt>
+            <dt class="skill-8">CSS</dt>
             <dd>8</dd>
-            <dt class="skill-4">RegEx</dt>
+            <dt class="skill-4">Firebase</dt>
             <dd>4</dd>
-            <dt class="skill-6">HTML5</dt>
+            <dt class="skill-6">c++</dt>
             <dd>6</dd>
-            <dt class="skill-7">JavaScript</dt>
+            <dt class="skill-7"> HTML</dt>
             <dd>7</dd>
-            <dt class="skill-9">CSS</dt>
+            <dt class="skill-9">Java</dt>
             <dd>9</dd>
-            <dt class="skill-2">jio</dt>
+            <dt class="skill-2">Node</dt>
             <dd>2</dd>
+            <dt class="skill-11">React</dt>
+            <dd>9</dd>
           </dl>
         </div>
       </Fade>
-    </>
+    </div>
   );
 }
 
