@@ -29,12 +29,14 @@ import Skill from "./Skill";
 import Services from "./components/Services";
 import About from "./components/About";
 import Prices from "./components/Prices";
-import Contact from "./components/Contact";
-import Contacts from "./Contact";
+// import Contact from "./components/Contact";
+// import Contacts from "./Contact";
 import Error from "./components/Error";
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Card from "./components/Education/Education";
+import Form from "./components/Contact/Form";
+import Footer from "./components/Contact/Footer";
 // import Services from "./components/Services";
 function App() {
   return (
@@ -65,9 +67,8 @@ function App() {
         <Route path="/Contact">
           <Navbar />
 
-          <Contacts />
-
-          <Contact />
+          <Form />
+          <Footer />
         </Route>
 
         <Route component={Error} />

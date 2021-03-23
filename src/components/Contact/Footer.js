@@ -1,26 +1,36 @@
 import React from "react";
-
-import "./Cont.css";
+import "./Footer.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-const Contact = () => {
+const Footer = () => {
   return (
     <div className="contacts ">
-      <hr className="hr" />
       <div className="container">
         <div className="contactSection">
           <div className="row justifyConter">
             <div className="col-6">
               <ul className="contactCircles">
                 <li>
-                  <GitHubIcon className="contactIcon" />
+                  <a href="https://github.com/mrstark-A" target="_blank">
+                    <GitHubIcon className="contactIcon" />
+                  </a>
                 </li>
                 <li>
-                  <InstagramIcon className="contactIcon" />
+                  <a
+                    href="https://www.instagram.com/_vikkysingh/"
+                    target="_blank"
+                  >
+                    <InstagramIcon className="contactIcon" />
+                  </a>
                 </li>
                 <li>
-                  <LinkedInIcon className="contactIcon" />
+                  <a
+                    href="https://www.linkedin.com/in/vikky-singh-10012001/"
+                    target="_blank"
+                  >
+                    <LinkedInIcon className="contactIcon" />
+                  </a>
                 </li>
               </ul>
               <br />
@@ -33,4 +43,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Footer;

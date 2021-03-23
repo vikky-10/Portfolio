@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.img {
+  flex: 0.4;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  /* background: #dd9a05; */
+  color: #fff;
+  border-radius: 0.5rem;
+  /* border: 2px solid #dd9a05; */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  background-color: transparent;
+  color: inherit;
+}
+
+@media only screen and (max-width: 996px) {
+  .btn {
+    padding: 0.7rem 1.8rem;
+  }
+}
+
+.contact-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.form {
+  margin-right: 10px;
+  color: #ccc;
+}
+.form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form input,
+.form textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  text-indent: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  outline: none;
+}
+
+.form .right div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .right div input {
+  flex: 1 1 50%;
+}
+
+.form textarea {
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-center {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    /* margin-left: 100px; */
+    width: auto;
+    /* margin-right: -10px; */
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contact-center {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    width: auto;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .contact-center {
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    width: auto;
+  }
+}
+
+.contact {
+  background: url("https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg");
+  background-size: cover;
+  width: 100%;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+input,
+textarea {
+  background-color: #101420;
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.6;
+}

@@ -2,6 +2,7 @@
   height: 100px !important;
   width: 30px !important;
   color: #ccc;
+  margin-top: 6px;
 }
 .col-6 {
   margin-top: 50px;
@@ -11,8 +12,4 @@
 }
 .col-6 .contactCircles {
   font-size: 1.6rem;
-}
-.hr {
-  opacity: 0.2;
-  margin-bottom: 15px;
 }
