@@ -148,7 +148,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "6266618612",
+  number: "+91-6266618612",
   email_address: "vikkyhp0007@gmail.com",
 };
 

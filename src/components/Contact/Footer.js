@@ -34,7 +34,9 @@ const Footer = () => {
                 </li>
               </ul>
               <br />
-              <p className="contactCircles">© Made By Vikky Singh</p>
+              <div className="pp">
+                <p className="contactCircles">© Made By Vikky Singh</p>
+              </div>
             </div>
           </div>
         </div>

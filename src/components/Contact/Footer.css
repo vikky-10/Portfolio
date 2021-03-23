@@ -13,3 +13,7 @@
 .col-6 .contactCircles {
   font-size: 1.6rem;
 }
+.col-6 .contactCircles p {
+  display: block;
+  text-align: center;
+}
