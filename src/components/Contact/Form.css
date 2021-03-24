@@ -82,7 +82,15 @@ html {
   resize: vertical;
   margin-bottom: 3rem;
 }
-
+.mess {
+  height: 40px;
+  line-height: 5px;
+  margin-right: 10px;
+}
+.ms {
+  display: flex;
+  padding-bottom: 20px;
+}
 @media only screen and (max-width: 768px) {
   .contact-center {
     grid-template-columns: 1fr;

@@ -35,6 +35,10 @@ class Education extends Component {
           <br />
           <br />
           <Card />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     );

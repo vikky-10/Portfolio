@@ -38,7 +38,7 @@ class DegreeCard extends Component {
               })}
 
               <a
-                href={degree.website_link}
+                href="https://www.lpu.in/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
