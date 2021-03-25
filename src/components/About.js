@@ -61,15 +61,12 @@
 import React from "react";
 import "./About.css";
 import SoftwareSkill from "./softwareSkills/SoftwareSkill";
-import { illustration, skillsSection } from "./Portfolio";
+import { skillsSection } from "./Portfolio";
 import { Fade } from "react-reveal";
 import img from "../img/manOnTable.svg";
-// import codingPerson from "../../assets/lottie/codingPerson";
-// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-// import StyleContext from "../../contexts/StyleContext";
+
 import Navbar from "./Navbar";
 export default function Skills() {
-  // const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
   }
@@ -79,12 +76,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {/* {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} />
-            ) : ( */}
-            <img alt="Man Working" src={img}></img>
-            {/* ) */}
-            {/* } */}
+            <img alt="Man Working" src={img} loading="lazy"></img>
           </div>
         </Fade>
         <Fade right duration={1000}>

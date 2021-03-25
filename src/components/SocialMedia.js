@@ -1,14 +1,11 @@
 import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "./Portfolio";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
 
+import GitHubIcon from "@material-ui/icons/GitHub";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import TwitterIcon from "@material-ui/icons/Twitter";
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
@@ -22,7 +19,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="headerIcon G" />
+          <GitHubIcon className="headerIcon G" />
           <span></span>
         </a>
       ) : null}
@@ -34,19 +31,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="headerIcon L" />
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaFacebookF className="headerIcon F" />
+          <LinkedInIcon className="headerIcon L" />
           <span></span>
         </a>
       ) : null}
@@ -58,7 +43,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram className="headerIcon I" size="0.2" />
+          <InstagramIcon className="headerIcon I" size="0.2" />
           <span></span>
         </a>
       ) : null}
@@ -70,7 +55,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter className="headerIcon T" />
+          <TwitterIcon className="headerIcon T" />
           <span></span>
         </a>
       ) : null}

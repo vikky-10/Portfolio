@@ -18,7 +18,7 @@
 
   border-style: solid;
   border-width: 1px;
-  border-radius: 20px;
+  border-radius: 50%;
 
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -69,8 +69,8 @@
 }
 .skills-diagram .skill-4 {
   width: 5em;
-  height: 4em;
-  line-height: 4em;
+  height: 5em;
+  line-height: 5em;
 
   background-color: rgba(234, 112, 97, 0.3);
   border-color: rgba(234, 112, 97, 1);
@@ -136,9 +136,9 @@
   margin-left: 60px;
 }
 .skills-diagram .skill-10 {
-  width: 14em;
-  height: 14em;
-  line-height: 14em;
+  width: 13em;
+  height: 13em;
+  line-height: 13em;
   background-color: rgba(81, 112, 144, 0.3);
   border-color: rgba(81, 112, 144, 1);
   color: rgba(81, 112, 144, 1);

@@ -23,20 +23,17 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/mrstark-A",
-  linkedin: "https://www.linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/vikky-singh-10012001/",
 
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-
-  instagram: "https://www.instagram.com/davidrakosi/",
-  twitter: "https://twitter.com/davidrakosi_",
+  instagram: "https://www.instagram.com/_vikkysingh/",
+  twitter: "https://twitter.com/vikkysingh_",
   display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I do ❓",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
@@ -47,6 +44,7 @@ const skillsSection = {
     emoji(
       "⚡  Gardening may be a fun and relaxing way to get in touch with nature. So apart from technical things i enjoy gardening."
     ),
+    emoji("⚡ Currently, I'm working on Typescript, DS, and Algo."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
