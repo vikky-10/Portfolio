@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.commonIcons:hover {
+  color: #000 !important;
+}
+.com:hover {
+  color: rgb(15, 27, 194) !important;
+}
 @media (max-width: 300px) {
   .services__box {
     width: 100%;

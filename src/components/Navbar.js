@@ -4,7 +4,12 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="header">
-      <h2 className="logo"> 🎅 Potfolio</h2>
+      <h2 className="logo">
+        <NavLink exact to="/">
+          Vikky Singh
+        </NavLink>
+      </h2>
+
       <input type="checkbox" id="chk" />
       <label htmlFor="chk" className="show-menu-btn">
         <i className="fas fa-bars hid" />

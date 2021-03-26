@@ -7,16 +7,15 @@ import { NavLink } from "react-router-dom";
 
 const Services = () => {
   const [header] = React.useState({
-    mainHeader: "SERVICES",
-    subHeading: "My Services",
-    text:
-      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum standard dummy text.",
+    mainHeader: "PROJECTS",
+    subHeading: "My Project",
+    text: "My projects makes use of vast variety of latest technology tools.",
   });
   const [state] = React.useState([
     {
       id: 1,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons" />,
+      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "Web Development",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -25,7 +24,7 @@ const Services = () => {
     {
       id: 2,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons" />,
+      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "Photography",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -34,7 +33,7 @@ const Services = () => {
     {
       id: 3,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons" />,
+      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "Web Desing",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -43,7 +42,7 @@ const Services = () => {
     {
       id: 4,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons" />,
+      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "App Devlopment",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -52,7 +51,7 @@ const Services = () => {
     {
       id: 5,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons" />,
+      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "Video Editing",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -61,7 +60,7 @@ const Services = () => {
     {
       id: 6,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons" />,
+      icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "SEO Expert",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -74,7 +73,7 @@ const Services = () => {
         <div className="container">
           <div className="services__header">
             <div className="common">
-              <h3 className="heading">{header.mainHeader}</h3>
+              {/* <h3 className="heading">{header.mainHeader}</h3> */}
               <h1 className="mainHeader">{header.subHeading}</h1>
               <p className="mainContent">{header.text}</p>
               <div className="commonBorder"></div>

@@ -10,7 +10,7 @@ class Educations extends Component {
       <div className="main" id="educations">
         <div className="educations-header-div">
           <Fade bottom duration={2000} distance="20px">
-            <h1 className="educations-header">Degrees Received</h1>
+            <h1 className="educations-header">Degrees Continue</h1>
           </Fade>
         </div>
         <div className="educations-body-div">

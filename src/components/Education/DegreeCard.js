@@ -14,6 +14,7 @@ class DegreeCard extends Component {
               style={{
                 maxWidth: "100%",
                 maxHeight: "100%",
+                alignItems: "center",
                 transform: "scale(50%, 50%)",
               }}
               src="https://seeklogo.com/images/L/lpu-sae-india-collegiate-club-logo-29B436A816-seeklogo.com.png"
