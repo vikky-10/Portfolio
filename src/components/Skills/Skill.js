@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skill.css";
 import { Fade } from "react-reveal";
-import Navbar from "./components/Navbar";
+import Navbar from "../Navbar";
 function Skill() {
   return (
     <div className="glass">

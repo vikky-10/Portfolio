@@ -28,8 +28,14 @@ function Card({ cert }) {
       <div class="imgcont">
         <img className="imgs" src={img} alt="yo"></img>
       </div>
-      <div class="name">Vikky Singh</div>
-      <p>discription</p>
+      <div class="name">
+        <h5>{cert.title}</h5>
+
+        <div class="subname">
+          <h6>{cert.subtitle}</h6>
+        </div>
+      </div>
+
       <br />
 
       <div class="buttons">

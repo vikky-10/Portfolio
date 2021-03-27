@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .skills-diagram {
   font-size: 16px;
   font-weight: bold;
@@ -7,6 +11,10 @@
 }
 .common {
   padding-top: 25px;
+}
+
+.glass {
+  margin-top: 40px;
 }
 .skills-diagram > dd {
   /* Hide inner attributes */
@@ -146,22 +154,26 @@
 
 .area {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .circles {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+  bottom: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  /* margin-top: 100vh; */
+  bottom: 0;
 }
 
 .circles li {
   position: absolute;
   display: block;
   list-style: none;
+
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
@@ -225,6 +237,7 @@
   height: 150px;
   animation-delay: 7s;
   background-color: #ff0000;
+  opacity: 0.5;
 }
 
 .circles li:nth-child(8) {

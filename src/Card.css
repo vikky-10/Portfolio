@@ -43,25 +43,20 @@
 .wrapper .icon.dots {
   right: 15px;
 }
-/* .wrapper .img-area {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.name {
+  display: block;
+  text-align: center;
+}
+.subname {
+  display: block;
+  text-align: center;
+}
 .img-area .inner-area {
   height: calc(100% - 25px);
   width: calc(100% - 25px);
   border-radius: 50%;
 }
-/* .inner-area img {
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-} */
+
 .wrapper .name {
   position: absolute;
   font-size: 23px;
@@ -110,7 +105,7 @@
 
 .wrapper .buttons {
   position: absolute;
-  top: 80%;
+  top: 85%;
   display: inline-block;
   text-align: center;
 }

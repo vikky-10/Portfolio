@@ -25,7 +25,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 // import Nav from "./components/Nav";
 import Nav from "./Nav";
-import Skill from "./Skill";
+import Skill from "./components/Skills/Skill";
 import Services from "./components/Services";
 import About from "./components/About";
 import Prices from "./components/Prices";

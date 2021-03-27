@@ -116,12 +116,11 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "HtML,CSS AND javascript",
+      subtitle: "- Duke university",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://www.coursera.org/account/accomplishments/verify/3KRBUX7SXAXP",
       color_code: "#8C151599",
     },
     {
