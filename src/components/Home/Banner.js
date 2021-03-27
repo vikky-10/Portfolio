@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import img from "../../img/prof.svg";
 import "./Banner.css";
 import pdf from "../../lecture7-final.pdf";
-import SocialMedia from "../SocialMedia";
+import SocialMedia from "../Util/SocialMedia";
 import Button from "../Util/Button";
 
 import { greeting } from "../Util/Portfolio";

@@ -17,8 +17,10 @@
 .logo {
   position: fixed;
   line-height: 100px;
+  /* top: 0; */
   float: 0.5;
   text-transform: uppercase;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   font-family: "Redressed", cursive;
@@ -27,7 +29,9 @@
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
 }
-
+.hm {
+  color: white;
+}
 .menu {
   display: flex;
   margin-left: auto;

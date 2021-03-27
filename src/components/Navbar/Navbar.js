@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="header">
       <h2 className="logo">
-        <NavLink exact to="/">
-          Vikky Singh
-        </NavLink>
+        <a className="hm" href="/">
+          Vikky Singh{" "}
+        </a>
       </h2>
 
       <input type="checkbox" id="chk" />
