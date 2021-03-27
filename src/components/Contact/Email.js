@@ -1,6 +1,6 @@
 import React from "react";
 import "./Email.css";
-import { contactInfo } from "../Portfolio";
+import { contactInfo } from "../Util/Portfolio";
 import { Fade } from "react-reveal";
 
 export default function Contact() {

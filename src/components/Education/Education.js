@@ -5,7 +5,7 @@ import Educations from "./Educations";
 import CompetitiveSites from "./CompetitiveSites";
 // import EducationImg from "./EducationImg";
 import Card from "./Cards";
-import Navbar from "../Navbar";
+import Navbar from "../Navbar/Navbar";
 import "./Education.css";
 import { Fade } from "react-reveal";
 import edu from "./edu.svg";

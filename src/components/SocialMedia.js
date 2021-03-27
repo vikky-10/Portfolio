@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.css";
-import { socialMediaLinks } from "./Portfolio";
+import { socialMediaLinks } from "./Util/Portfolio";
 
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";

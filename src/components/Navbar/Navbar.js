@@ -22,16 +22,6 @@ const Navbar = () => {
           </NavLink>
         </li>
 
-        {/* <li>
-          <NavLink
-            className="links"
-            exact
-            activeClassName="active_class"
-            to="/About"
-          >
-            About
-          </NavLink>
-        </li> */}
         <li>
           <NavLink
             className="links"

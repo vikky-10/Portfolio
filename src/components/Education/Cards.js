@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import "./Cards.css";
-import { certifications } from "../Portfolio";
+import { certifications } from "../Util/Portfolio";
 function Cards() {
   return (
     <>

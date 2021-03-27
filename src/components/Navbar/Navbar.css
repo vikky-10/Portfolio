@@ -41,6 +41,7 @@
   padding: 0 10px;
   font-size: 1.6rem;
   /* font-weight: bold; */
+  list-style: none;
 }
 .menu .links {
   color: #fafafa;

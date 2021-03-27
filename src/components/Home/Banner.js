@@ -5,9 +5,9 @@ import img from "../../img/prof.svg";
 import "./Banner.css";
 import pdf from "../../lecture7-final.pdf";
 import SocialMedia from "../SocialMedia";
-import Button from "../Button";
+import Button from "../Util/Button";
 
-import { greeting } from "../Portfolio";
+import { greeting } from "../Util/Portfolio";
 
 export default function Greeting() {
   if (!greeting.displayGreeting) {

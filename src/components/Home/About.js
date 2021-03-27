@@ -1,11 +1,11 @@
 import React from "react";
 import "./About.css";
 import SoftwareSkill from "../softwareSkills/SoftwareSkill";
-import { skillsSection } from "../Portfolio";
+import { skillsSection } from "../Util/Portfolio";
 import { Fade } from "react-reveal";
 import img from "../../img/manOnTable.svg";
 
-import Navbar from "../Navbar";
+import Navbar from "../Navbar/Navbar";
 export default function Skills() {
   if (!skillsSection.display) {
     return null;

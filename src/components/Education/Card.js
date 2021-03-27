@@ -3,7 +3,7 @@ import "./Card.css";
 import img from "../../img/developerActivity.svg";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import PeopleAltIcon from "@material-ui/icons/PeopleAlt";
-import { certifications } from "../Portfolio";
+import { certifications } from "../Util/Portfolio";
 
 function Card({ cert }) {
   return (
