@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
-import img from "../img/prof.svg";
+import img from "../../img/prof.svg";
 import "./Banner.css";
-import pdf from "../lecture7-final.pdf";
-import SocialMedia from "./SocialMedia";
-import Button from "./Button";
+import pdf from "../../lecture7-final.pdf";
+import SocialMedia from "../SocialMedia";
+import Button from "../Button";
 
-import { greeting } from "./Portfolio";
+import { greeting } from "../Portfolio";
 
 export default function Greeting() {
   if (!greeting.displayGreeting) {

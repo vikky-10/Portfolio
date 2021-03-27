@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Banner from "./components/Banner";
+import Banner from "./components/Home/Banner";
 // import Nav from "./components/Nav";
 import Nav from "./Nav";
 import Skill from "./components/Skills/Skill";
 import Services from "./components/Services";
-import About from "./components/About";
+import About from "./components/Home/About";
 import Prices from "./components/Prices";
 // import Contact from "./components/Contact";
 // import Contacts from "./Contact";
