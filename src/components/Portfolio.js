@@ -124,11 +124,11 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "Energy, Environment, and Everyday Life",
+      subtitle: "-University of Illinois  ",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://www.coursera.org/account/accomplishments/verify/W5SSNKCA554G",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },

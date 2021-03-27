@@ -1,25 +1,3 @@
-// import React from "react";
-// import Nav from "./Nav";
-// import Home from "./Home";
-// import Content from "./Content";
-// // import Education from "./Education";
-// // import Contact from "./Contact";
-// function App() {
-//   return (
-//     <div className="app">
-//       <Nav />
-
-//       <Home />
-
-//       <Content />
-//       {/* <Education /> */}
-//       {/* <Contact /> */}
-//       {/* <About /> */}
-//     </div>
-//   );
-// }
-
-// export default App;
 import React from "react";
 import "./App.css";
 import Banner from "./components/Banner";

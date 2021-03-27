@@ -1,22 +1,13 @@
 import React from "react";
 import "./Card.css";
-import img from "./img/developerActivity.svg";
+import img from "../../img/developerActivity.svg";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import PeopleAltIcon from "@material-ui/icons/PeopleAlt";
-import { certifications } from "./components/Portfolio";
+import { certifications } from "../Portfolio";
 
 function Card({ cert }) {
   return (
     <div class="wrapper">
-      {/* <div class="img-area">
-          <div class="inner-area">
-            <img
-              src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-        </div> */}
-
       <div class="icon arrow">
         <PeopleAltIcon />
       </div>
@@ -37,7 +28,9 @@ function Card({ cert }) {
       </div>
 
       <br />
-
+      <br />
+      <br />
+      <br />
       <div class="buttons">
         <a href={cert.certificate_link} target="_blank">
           <button>Download certificate</button>

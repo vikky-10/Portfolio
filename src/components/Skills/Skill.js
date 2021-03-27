@@ -10,7 +10,8 @@ function Skill() {
         <div className="common cds">
           <h1 className="mainHeader"> Skills</h1>
           <p className="mainContent">
-            loream5asdf dfaldf asfdadfjd asdfsdfdf asdf
+            I am always doing that which I cannot do, in order that I may learn
+            how to do it.
           </p>
           <div className="commonBorder"></div>
         </div>

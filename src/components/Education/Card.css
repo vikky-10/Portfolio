@@ -9,7 +9,7 @@
 .wrapper {
   position: relative;
   width: 300px;
-  height: 350px;
+  height: 400px;
   padding: 30px;
   border-radius: 10px;
   display: flex;
@@ -50,11 +50,7 @@
 .subname {
   display: block;
   text-align: center;
-}
-.img-area .inner-area {
-  height: calc(100% - 25px);
-  width: calc(100% - 25px);
-  border-radius: 50%;
+  margin-top: 5px;
 }
 
 .wrapper .name {
@@ -63,13 +59,12 @@
   font-weight: 500;
   color: #31344b;
   display: block;
-  top: 60%;
+  top: 55%;
   margin: 10px 0 5px 0;
 }
 .wrapper .imgcont {
   position: absolute;
-  /* width: 250px;
-  height: 350px; */
+
   top: 20%;
   max-width: 80%;
 
@@ -128,40 +123,3 @@
 .buttons button:last-child {
   margin-left: 10px;
 }
-
-/* @media screen and (max-width: 420px) {
-  .wrapper {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 360px) {
-  .wrapper {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 318px) {
-  .wrapper {
-    width: 100%;
-  }
-} */
-/* @media screen and (max-width: 318px) {
-  .wrapper {
-    position: relative;
-    width: 180px;
-    margin-left: 80px;
-  }
-} */
-
-/* @media (max-width: 300px) {
-  .wrapper {
-    width: 100%;
-  }
-  .bgMain {
-  
-}
-@media (min-width: 264px) {
-  .wrapper {
-    width: 100%;
-  }
-  
-} */
