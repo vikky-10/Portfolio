@@ -133,11 +133,11 @@ const certifications = {
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Angular",
+      subtitle: "-LCO Cont.",
       logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -152,31 +152,12 @@ const contactInfo = {
   email_address: "vikkyhp0007@gmail.com",
 };
 
-// // Twitter Section
-
-// const twitterDetails = {
-//   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-//   display: true, // Set true to display this section, defaults to false
-// };
-
 export {
   illustration,
   greeting,
   socialMediaLinks,
   skillsSection,
-  //   educationInfo,
-  //   techStack,
-  //   workExperiences,
-  //   openSource,
-  //   bigProjects,
-  //   achievementSection,
-  //   blogSection,
-  //   talkSection,
-  //   podcastSection,
-
   degrees,
   certifications,
   contactInfo,
-
-  //   twitterDetails,
 };
