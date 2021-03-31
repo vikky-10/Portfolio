@@ -29,7 +29,8 @@ const Services = () => {
       gitlink: "https://github.com/mrstark-A/web_blog",
       weblink: "https://compassionate-spence-7580d6.netlify.app/",
       heading: "Blog",
-      text: "",
+      text:
+        "It is a blog application in this application you can add your post, likes other's posts, no other can delete your post, also this application has a full authentication system. ",
     },
     {
       id: 3,
@@ -60,8 +61,7 @@ const Services = () => {
       weblink: "https://drive-9dc37.web.app/login",
       heading: "Google-drive",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "It is not a full real google drive in this you simply create a folder or file upload images, pdfs, docs, etc with full authentication.",
     },
     {
       id: 6,

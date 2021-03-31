@@ -44,7 +44,7 @@ const skillsSection = {
     emoji(
       "⚡  Gardening may be a fun and relaxing way to get in touch with nature. So apart from technical things i enjoy gardening. 🌳"
     ),
-    emoji("⚡ Currently, I'm working on Angular, DS, and Algo 😵 😢"),
+    emoji("⚡ Currently, I'm working on Angular, DS, and Algo. 😵 😢"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
