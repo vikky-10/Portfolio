@@ -39,12 +39,12 @@ const skillsSection = {
     emoji(
       "⚡Develop highly interactive Front end / User Interfaces for your web   applications"
     ),
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+
     emoji("⚡ Integration of third party services such as Firebase"),
     emoji(
-      "⚡  Gardening may be a fun and relaxing way to get in touch with nature. So apart from technical things i enjoy gardening."
+      "⚡  Gardening may be a fun and relaxing way to get in touch with nature. So apart from technical things i enjoy gardening. 🌳"
     ),
-    emoji("⚡ Currently, I'm working on Typescript, DS, and Algo."),
+    emoji("⚡ Currently, I'm working on Angular, DS, and Algo 😵 😢"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

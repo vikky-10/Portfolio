@@ -1,7 +1,9 @@
 .gl {
   display: flex;
 }
-
+.services {
+  padding-top: 30px;
+}
 .commonIcons:hover {
   color: #000 !important;
 }
@@ -28,13 +30,3 @@
     justify-content: center;
   }
 }
-/* .container {
-  background-image: url("../img/developerActivity.svg");
-  background-size: cover;
-  width: auto;
-  height: auto;
-} */
-/* .services__box {
-  background-image: url("../img/developerActivity.svg");
-  background-size: cover;
-} */

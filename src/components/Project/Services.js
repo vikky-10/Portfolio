@@ -15,44 +15,50 @@ const Services = () => {
     {
       id: 1,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
+      gitlink: "https://github.com/mrstark-A/Portfolio",
+      weblink: "",
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      heading: "Web Development",
+      heading: "Portfolio",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-      industry. simply dummy",
+        "It is my portfolio website. It includes all information regarding me. Who I am, what I am doing, and what my specialization, and a lot more.",
     },
     {
       id: 2,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      heading: "Photography",
-      text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      gitlink: "https://github.com/mrstark-A/web_blog",
+      weblink: "https://compassionate-spence-7580d6.netlify.app/",
+      heading: "Blog",
+      text: "",
     },
     {
       id: 3,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      heading: "Web Desing",
+      gitlink: "https://github.com/mrstark-A/chat-app",
+      weblink:
+        "https://60084bc0fdb28f23947f9faf--xenodochial-bhabha-8817e5.netlify.app/",
+      heading: "Chat-app",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Full Realtime Chat Application. I use React on the front end, with NodeJS + Socket.io web socket library on the back end.",
     },
     {
       id: 4,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      heading: "App Devlopment",
+      gitlink: "https://github.com/mrstark-A/Suggestion-app",
+      weblink: "https://amazing-dubinsky-603771.netlify.app/",
+      heading: "Suggestion-app",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Interesting project - A React Suggestion App. In this project, I use React on the front end and I make get requests to Advice Slip JSON API.",
     },
     {
       id: 5,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      heading: "Video Editing",
+      gitlink: "https://github.com/mrstark-A/Google-drive",
+      weblink: "https://drive-9dc37.web.app/login",
+      heading: "Google-drive",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
         industry. simply dummy",
@@ -61,7 +67,9 @@ const Services = () => {
       id: 6,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      heading: "SEO Expert",
+      gitlink: "https://github.com/mrstark-A/chattery-app",
+      weblink: "",
+      heading: "Chattery-app",
       text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
         industry. simply dummy",
@@ -84,12 +92,12 @@ const Services = () => {
                 <div className="col-4 bgMain">
                   <div className="services__box">
                     <div className="gl">
-                      <NavLink exact className="lk" to="/">
+                      <a href={info.gitlink} target="_blank">
                         <span>{info.icon}</span>
-                      </NavLink>
-                      <NavLink exact className="lk" to="/">
+                      </a>
+                      <a href={info.weblink} target="_blank">
                         <span style={{ marginLeft: "30px" }}>{info.icon1}</span>
-                      </NavLink>
+                      </a>
                     </div>
                     <div className="services__box-header">{info.heading}</div>
                     <div className="services__box-p">{info.text}</div>
