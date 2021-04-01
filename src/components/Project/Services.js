@@ -61,7 +61,7 @@ const Services = () => {
       weblink: "https://drive-9dc37.web.app/login",
       heading: "Google-drive",
       text:
-        "It is not a full real google drive in this you simply create a folder or file upload images, pdfs, docs, etc with full authentication.",
+        "It is not a full real google drive. In this, you simply create folders or files and store your images, pdfs, docs, etc with full authentication.",
     },
     {
       id: 6,
@@ -71,8 +71,7 @@ const Services = () => {
       weblink: "",
       heading: "Chattery-app",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        " It is an application in which you can create your channel, chat with your friends you can also create multiple channels, you may delete your channel too.",
     },
   ]);
   return (
