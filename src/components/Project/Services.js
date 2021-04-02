@@ -15,7 +15,7 @@ const Services = () => {
     {
       id: 1,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
-      gitlink: "https://github.com/mrstark-A/Portfolio",
+      gitlink: "https://github.com/vikky-10/Portfolio",
       weblink: "",
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
       heading: "Portfolio",
@@ -26,7 +26,7 @@ const Services = () => {
       id: 2,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      gitlink: "https://github.com/mrstark-A/web_blog",
+      gitlink: "https://github.com/vikky-10/web_blog",
       weblink: "https://compassionate-spence-7580d6.netlify.app/",
       heading: "Blog",
       text:
@@ -36,7 +36,7 @@ const Services = () => {
       id: 3,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      gitlink: "https://github.com/mrstark-A/chat-app",
+      gitlink: "https://github.com/vikky-10/chat-app",
       weblink:
         "https://60084bc0fdb28f23947f9faf--xenodochial-bhabha-8817e5.netlify.app/",
       heading: "Chat-app",
@@ -57,7 +57,7 @@ const Services = () => {
       id: 5,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      gitlink: "https://github.com/mrstark-A/Google-drive",
+      gitlink: "https://github.com/vikky-10/Google-drive",
       weblink: "https://drive-9dc37.web.app/login",
       heading: "Google-drive",
       text:
@@ -67,8 +67,8 @@ const Services = () => {
       id: 6,
       icon: <FaGithub style={{ fontSize: 30 }} className="commonIcons" />,
       icon1: <FaLink style={{ fontSize: 30 }} className="commonIcons com" />,
-      gitlink: "https://github.com/mrstark-A/chattery-app",
-      weblink: "",
+      gitlink: "https://github.com/vikky-10/chattery-app",
+      weblink: "https://chatery-e79e6.web.app/",
       heading: "Chattery-app",
       text:
         " It is an application in which you can create your channel, chat with your friends you can also create multiple channels, you may delete your channel too.",

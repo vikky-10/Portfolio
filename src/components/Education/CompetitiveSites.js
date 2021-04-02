@@ -36,7 +36,7 @@ function CompetitiveSites() {
           </a>
         </li>
         <li className="competitive-sites-inline" name="Github">
-          <a href="https://github.com/mrstark-A" target="_blank">
+          <a href="https://github.com/vikky-10" target="_blank">
             <img
               className="ig"
               src="https://pngimg.com/uploads/github/github_PNG58.png"

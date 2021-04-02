@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import img from "../../img/prof.svg";
 import "./Banner.css";
-import pdf from "../../lecture7-final.pdf";
+import pdf from "./vikkysingh__cv__-converted.pdf";
 import SocialMedia from "../Util/SocialMedia";
 import Button from "../Util/Button";
 
@@ -30,11 +30,7 @@ export default function Greeting() {
                 </p>
                 <SocialMedia />
                 <div className="button-greeting-div">
-                  <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                  />
+                  <Button text="See my resume" newTab={true} href={pdf} />
                 </div>
               </div>
             </div>

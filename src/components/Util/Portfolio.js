@@ -22,7 +22,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mrstark-A",
+  github: "https://github.com/vikky-10",
   linkedin: "https://www.linkedin.com/in/vikky-singh-10012001/",
 
   instagram: "https://www.instagram.com/_vikkysingh/",

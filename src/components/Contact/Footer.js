@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-6">
               <ul className="contactCircles">
                 <li>
-                  <a href="https://github.com/mrstark-A" target="_blank">
+                  <a href="https://github.com/vikky-10" target="_blank">
                     <GitHubIcon className="contactIcon" />
                   </a>
                 </li>
