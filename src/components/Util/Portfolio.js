@@ -23,7 +23,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/vikky-10",
-  linkedin: "https://www.linkedin.com/in/vikky-singh-10012001/",
+  linkedin: "https://www.linkedin.com/in/vikky-10/",
 
   instagram: "https://www.instagram.com/_vikkysingh/",
   twitter: "https://twitter.com/vikkysingh_",
@@ -141,6 +141,24 @@ const certifications = {
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
+    {
+      title: "Modern React with Redux",
+      subtitle: "-Udemy",
+      logo_path: "google_logo.png",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+      alt_name: "React",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: " UI/UX",
+      subtitle: "-Udemy",
+      logo_path: "google_logo.png",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+      alt_name: "React",
+      color_code: "#0C9D5899",
+    },
   ],
 };
 
@@ -149,7 +167,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-6266618612",
-  email_address: "vikkyhp0007@gmail.com",
+  email_address: "vikkysingh2k1@gmail.com",
 };
 
 export {

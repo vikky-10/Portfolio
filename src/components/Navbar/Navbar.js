@@ -57,7 +57,7 @@ const Navbar = () => {
             className="links"
             exact
             to={{
-              pathname: "https://compassionate-spence-7580d6.netlify.app",
+              pathname: "https://web-blogs.netlify.app",
             }}
             target="_blank"
           >

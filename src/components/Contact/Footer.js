@@ -26,7 +26,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/vikky-singh-10012001/"
+                    href="https://www.linkedin.com/in/vikky-10/"
                     target="_blank"
                   >
                     <LinkedInIcon className="contactIcon" />
