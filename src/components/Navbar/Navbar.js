@@ -53,13 +53,21 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink
+          {/* <NavLink
             className="links"
             exact
             to={{
               pathname: "https://web-blogs.netlify.app",
             }}
             target="_blank"
+          >
+            Blog
+          </NavLink> */}
+          <NavLink
+            className="links"
+            exact
+            activeClassName="active_class"
+            to="/Blog"
           >
             Blog
           </NavLink>
